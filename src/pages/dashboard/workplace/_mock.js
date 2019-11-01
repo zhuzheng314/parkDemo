@@ -136,16 +136,27 @@ for (let i = 0; i < 20; i += 1) {
 }
 
 const titles = [
-  'Alipay',
-  'Angular',
-  'Ant Design',
-  'Ant Design Pro',
-  'Bootstrap',
-  'React',
-  'Vue',
-  'Webpack',
+  '房源详情',
+  '房源详情',
+  '房源详情',
+  '房源详情',
+  '房源详情',
+  '房源详情',
+  '房源详情',
+  '房源详情',
 ];
 const avatars = [
+  'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
+  'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
+  'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
+  'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
+  'https://gw.alipayobjects.com/zos/rmsportal/siCrBXXhmvTQGWPNLBow.png', // Bootstrap
   'https://gw.alipayobjects.com/zos/rmsportal/WdGqmHpayyMjiEhcKoVE.png', // Alipay
   'https://gw.alipayobjects.com/zos/rmsportal/zOsKZmFRdUtvpqCImOVY.png', // Angular
   'https://gw.alipayobjects.com/zos/rmsportal/dURIMkkrRFpPgTuzkwnB.png', // Ant Design
@@ -156,6 +167,15 @@ const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
 ];
 const avatars2 = [
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+  'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
   'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
   'https://gw.alipayobjects.com/zos/rmsportal/cnrhVkzwxjPwAaCfPbdc.png',
   'https://gw.alipayobjects.com/zos/rmsportal/gaOngJwsRYRaVAuXXcmB.png',
@@ -174,7 +194,7 @@ const getNotice = [
     logo: avatars[0],
     description: '那是一种内在的东西，他们到达不了，也无法触及的',
     updatedAt: new Date(),
-    member: '科学搬砖组',
+    member: '承租时间段',
     href: '',
     memberLink: '',
   },
@@ -184,7 +204,7 @@ const getNotice = [
     logo: avatars[1],
     description: '希望是一个好东西，也许是最好的，好东西是不会消亡的',
     updatedAt: new Date('2017-07-24'),
-    member: '全组都是吴彦祖',
+    member: '承租时间段',
     href: '',
     memberLink: '',
   },
@@ -194,7 +214,7 @@ const getNotice = [
     logo: avatars[2],
     description: '城镇中有那么多的酒馆，她却偏偏走进了我的酒馆',
     updatedAt: new Date(),
-    member: '中二少女团',
+    member: '租赁面积',
     href: '',
     memberLink: '',
   },
@@ -204,7 +224,7 @@ const getNotice = [
     logo: avatars[3],
     description: '那时候我只会想自己想要什么，从不想自己拥有什么',
     updatedAt: new Date('2017-07-23'),
-    member: '程序员日常',
+    member: '租赁面积',
     href: '',
     memberLink: '',
   },
@@ -390,13 +410,13 @@ export default {
     radarData,
   },
   'GET  /api/currentUser': {
-    name: 'Serati Ma',
+    name: 'Ser楼宇查看ati',
     avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
     userid: '00000001',
-    email: 'antdesign@alipay.com',
+    email: 'xxx@163.com',
     signature: '海纳百川，有容乃大',
-    title: '交互专家',
-    group: '蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED',
+    title: '楼宇查看',
+    group: '楼宇查看楼宇查看楼宇查看楼宇查看',
     tags: [
       {
         key: '0',

@@ -119,25 +119,7 @@ class BaseView extends Component {
       <div className={styles.baseView} ref={this.getViewDom}>
         <div className={styles.left}>
           <Form layout="vertical" hideRequiredMark>
-            <FormItem
-              label={formatMessage({
-                id: 'accountandsettings.basic.email',
-              })}
-            >
-              {getFieldDecorator('email', {
-                rules: [
-                  {
-                    required: true,
-                    message: formatMessage(
-                      {
-                        id: 'accountandsettings.basic.email-message',
-                      },
-                      {},
-                    ),
-                  },
-                ],
-              })(<Input />)}
-            </FormItem>
+          
             <FormItem
               label={formatMessage({
                 id: 'accountandsettings.basic.nickname',

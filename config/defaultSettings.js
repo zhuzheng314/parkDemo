@@ -26,7 +26,7 @@ export default
   "menu": {
     "locale": true
   },
-  "title": "zhuzhengTest",
+  "title": "智慧园区",
   "pwa": false,
   "iconfontUrl": "",
   "collapse": true,

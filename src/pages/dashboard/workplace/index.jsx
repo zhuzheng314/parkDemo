@@ -56,9 +56,9 @@ const PageHeaderContent = ({ currentUser }) => {
       </div>
       <div className={styles.content}>
         <div className={styles.contentTitle}>
-          早安，
-          {currentUser.name}
-          ，祝你开心每一天！
+          房源管理
+          阿斯顿发生
+          房源管理房源管理房源管理房源管理
         </div>
         <div>
           {currentUser.title} |{currentUser.group}

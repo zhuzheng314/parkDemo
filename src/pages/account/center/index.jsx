@@ -173,17 +173,17 @@ class Center extends PureComponent {
                 <div>
                   <div className={styles.avatarHolder}>
                     <img alt="" src={currentUser.avatar} />
-                    <div className={styles.name}>{currentUser.name}</div>
-                    <div>{currentUser.signature}</div>
+                    <div className={styles.name}>张三</div>
+                    <div>张三xxxxx</div>
                   </div>
                   <div className={styles.detail}>
                     <p>
                       <i className={styles.title} />
-                      {currentUser.title}
+                      经理
                     </p>
                     <p>
                       <i className={styles.group} />
-                      {currentUser.group}
+                      物业
                     </p>
                     <p>
                       <i className={styles.address} />
